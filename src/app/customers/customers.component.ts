@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ICustomer } from '../shared/interfaces';
 
 @Component({
   selector: 'app-customers',
@@ -7,7 +6,7 @@ import { ICustomer } from '../shared/interfaces';
 })
 export class CustomersComponent implements OnInit {
   title: string;
-  people: ICustomer[];
+  people: any[];
 
   constructor() {}
 
