@@ -21,7 +21,7 @@ export class CustomersListComponent implements OnInit {
 
   filteredCustomers: any[] = [];
   customersOrderTotal: number;
-  currencyCode: string = 'USD';
+  currencyCode: string = 'EUR';
 
   constructor() {}
 
